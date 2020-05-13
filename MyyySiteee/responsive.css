@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  padding: 0;
+  god
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  margin-top: 0;
+  position: absolute;
+}
+#header-logo {
+  width: 250px;
+  margin-left: 100px;
+  padding-left: 100px;
+}
+#myVideo {
+  width: 100%;
+  background-position: center;
+}
+
+.main-text {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  height: 490px;
+}
+.texttt {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#main-text1 {
+  font-size: 33px;
+  font-family: Comic Sans MS;
+}
+#main-text2 {
+  font-size: 16px;
+  font-family: "Yeon Sung", cursive;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+#shaxs1 {
+  font-size: 18px;
+}
+button {
+  border-radius: 4px;
+  background-color: #33302f;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  height: 50px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  letter-spacing: 4px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#slidee {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#vino {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Stalinist One", cursive;
+}
+.shaa {
+  line-height: 1.4;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+.text2 {
+  font-size: 20px;
+  font-family: "Cormorant Garamond", serif;
+  margin-top: 30px;
+  margin-left: 33px;
+  margin-right: 33px;
+}
+#foto11 {
+  width: 300px;
+  margin-top: 20px;
+}
+.foto112 img {
+  transition: 0.8s;
+}
+.foto112:hover img {
+  transform: scale(1.1);
+}
+#button2 {
+  margin-top: 50px;
+  border-radius: 4px;
+  background-color: hsl(15, 4%, 19%);
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 15px;
+  height: 50px;
+  width: 220px;
+  letter-spacing: 4px;
+}
+.foto1 {
+  overflow: hidden;
+  margin-top: 20px;
+}
+.foto2 {
+  overflow: hidden;
+}
+#photo1,
+#photo2 {
+  width: 300px;
+  margin-top: 30px;
+}
+.foto1 img {
+  transition: 0.8s;
+}
+.foto1:hover img {
+  transform: scale(1.1);
+}
+.foto2 img {
+  transition: 0.8s;
+}
+.foto2:hover img {
+  transform: scale(1.1);
+}
+#interer {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Stalinist One", cursive;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#interertext {
+  font-size: 20px;
+  font-family: "Cormorant Garamond", serif;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#road {
+  font-size: 25px;
+  padding-top: 30px;
+  font-family: "Yeseva One", cursive;
+}
+#map {
+  padding-top: 30px;
+}
+#add,
+#add3,
+#add5 {
+  padding-top: 30px;
+  font-family: "Yeseva One", cursive;
+  font-size: 17px;
+  line-height: 1.4;
+}
+#add2,
+#add4,
+#add6 {
+  font-size: 18px;
+}
+.footer {
+  background-color: rgb(246, 226, 189);
+}
+
+@media only screen and (min-width: 1000px) {
+  #myVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  #header-logo {
+    width: 300px;
+    padding-top: 80px;
+  }
+  .carousel-item {
+    height: 700px;
+    background-position: center;
+  }
+  .vinoteka {
+    width: 800px;
+    height: 100px;
+    padding-left: 200px;
+    padding-top: 80px;
+  }
+  .foto112 {
+    width: 500px;
+    margin-left: 800px;
+  }
+  #foto11 {
+    height: 500px;
+    width: 500px;
+  }
+  .foto1 {
+    padding-left: 20px;
+    height: 550px;
+    width: 400px;
+    margin-left: 150px;
+  }
+
+  #photo1,
+  #photo2 {
+    width: 400px;
+    background-image: center;
+  }
+
+  .foto2 {
+    margin-left: 650px;
+    height: 550px;
+    width: 400px;
+    position: absolute;
+    top: 2790px;
+    right: 610px;
+  }
+  .text3 {
+    width: 500px;
+    position: absolute;
+    margin-left: 1000px;
+    top: 2770px;
+  }
+  #road {
+    margin-top: 50px;
+    font-size: 25px;
+  }
+  .f1 {
+    width: 200px;
+    height: 130px;
+    position: absolute;
+    left: 150px;
+  }
+  .f2 {
+    width: 250px;
+    height: 130px;
+
+    position: absolute;
+    left: 700px;
+  }
+  .f3 {
+    width: 250px;
+    height: 130px;
+
+    position: absolute;
+    left: 1200px;
+  }
+  .footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(235, 221, 186, 0.787);
+  }
+}

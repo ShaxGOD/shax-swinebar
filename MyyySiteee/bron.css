@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+#formabron1 {
+  width: 100%;
+  height: 550px;
+  background-position: center;
+}
+#logo {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 1600px;
+  right: 600px;
+  top: 70px;
+}
+#textbron {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 120px;
+}
+.formabron {
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+#aboutbron,
+#aboutbron2 {
+  font-family: "Cormorant Infant", serif;
+  font-size: 60px;
+}
+.footer {
+  background-color: rgb(250, 233, 179);
+  text-align: center;
+  margin-top: 100px;
+}
+.f1 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+.f2 {
+  padding-top: 170px;
+  font-size: 50px;
+}
+.f3 {
+  padding-top: 170px;
+  padding-bottom: 100px;
+  font-size: 50px;
+}
+form {
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  width: 750px;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+form input {
+  font-size: 50px;
+  width: 800px;
+  color: #595f6e;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  border-bottom: 1px solid black;
+  margin-bottom: 200px;
+}
+button {
+  border-radius: 4px;
+  background-color: rgb(251, 251, 251);
+  border: 3px solid rgb(0, 0, 0);
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  height: 100px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  letter-spacing: 4px;
+  margin-left: 220px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+svg {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  top: 3650px;
+  left: 10px;
+}
+path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .bronphoto {
+    height: 570px;
+  }
+  #formabron1 {
+    height: 570px;
+  }
+  #logo {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 1350px;
+  }
+  .formabron {
+    height: 200px;
+  }
+  #textbron {
+    position: absolute;
+    top: 540px;
+    left: 600px;
+    font-size: 40px;
+  }
+  #aboutbron {
+    position: relative;
+    top: 170px;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  #aboutbron2 {
+    position: relative;
+    top: 170px;
+    font-size: 20px;
+  }
+
+  form {
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    height: auto;
+    overflow: hidden;
+  }
+
+  form button {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 200px;
+    font-size: 20px;
+  }
+  form input {
+    margin: 0px;
+    font-size: 20px;
+    color: #595f6e;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+  .brooo {
+    margin: 0 auto;
+    width: 50%;
+  }
+  .f1 {
+    width: 200px;
+    height: 0px;
+    font-size: 20px;
+    padding-top: 0px;
+    float: left;
+    margin-left: 100px;
+  }
+  .f2 {
+    width: 250px;
+    height: 0px;
+    font-size: 20px;
+    float: left;
+    padding-top: 0px;
+    margin-left: 650px;
+  }
+  .f3 {
+    width: 250px;
+
+    font-size: 20px;
+    padding-top: 0px;
+    float: right;
+    margin-left: 500px;
+    padding-bottom: 200px;
+    padding-bottom: 0px;
+    padding-right: 100px;
+  }
+  .footer {
+    width: 100%;
+    height: 130px;
+    background-color: rgba(235, 221, 186, 0.787);
+    margin-top: 50px;
+  }
+  svg {
+    height: 800px;
+    width: 450px;
+    position: absolute;
+    top: 1000px;
+    left: 50px;
+  }
+  path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear forwards;
+  }
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+}
